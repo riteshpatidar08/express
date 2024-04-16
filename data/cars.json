@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "engineType": "2.5L Inline-4",
+    "horsepower": 203,
+    "transmission": "8-speed automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 28,
+      "highway": 39
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "Bluetooth connectivity",
+      "Adaptive cruise control",
+      "Lane departure warning",
+      "Apple CarPlay & Android Auto compatibility"
+    ]
+  },
+  {
+    "id": 2,
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2023,
+    "engineType": "3.5L V6 EcoBoost",
+    "horsepower": 400,
+    "transmission": "10-speed automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 18,
+      "highway": 24
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "Tow package",
+      "Apple CarPlay & Android Auto compatibility",
+      "Blind spot monitoring",
+      "Off-road package"
+    ]
+  },
+  {
+    "id": 3,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2023,
+    "engineType": "1.5L Turbo Inline-4",
+    "horsepower": 180,
+    "transmission": "CVT",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 32,
+      "highway": 42
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "Lane keeping assist",
+      "Adaptive cruise control",
+      "Apple CarPlay & Android Auto compatibility",
+      "Rearview camera"
+    ]
+  },
+  {
+    "id": 4,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "engineType": "Electric",
+    "horsepower": 258,
+    "transmission": "Single-speed automatic",
+    "fuelType": "Electric",
+    "fuelEconomy": {
+      "city": "141 MPGe",
+      "highway": "132 MPGe"
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "Autopilot",
+      "Wireless charging",
+      "Bluetooth connectivity",
+      "Glass roof"
+    ]
+  },
+  {
+    "id": 5,
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2023,
+    "engineType": "2.0L Turbo Inline-4",
+    "horsepower": 255,
+    "transmission": "8-speed automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 26,
+      "highway": 36
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "BMW iDrive system",
+      "Leather upholstery",
+      "Gesture control",
+      "Sunroof"
+    ]
+  },
+  {
+    "id": 6,
+    "make": "Audi",
+    "model": "A4",
+    "year": 2023,
+    "engineType": "2.0L Turbo Inline-4",
+    "horsepower": 261,
+    "transmission": "7-speed dual-clutch automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 25,
+      "highway": 34
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "Virtual cockpit",
+      "Quattro all-wheel drive",
+      "Heated front seats",
+      "LED headlights"
+    ]
+  },
+  {
+    "id": 7,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2023,
+    "engineType": "2.0L Turbo Inline-4",
+    "horsepower": 255,
+    "transmission": "9-speed automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 24,
+      "highway": 35
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "MBUX infotainment system",
+      "Leather upholstery",
+      "Panoramic sunroof",
+      "Augmented reality navigation"
+    ]
+  },
+  {
+    "id": 8,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "year": 2023,
+    "engineType": "Electric",
+    "horsepower": 200,
+    "transmission": "Single-speed automatic",
+    "fuelType": "Electric",
+    "fuelEconomy": {
+      "city": "127 MPGe",
+      "highway": "108 MPGe"
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "One-pedal driving",
+      "Wireless Apple CarPlay & Android Auto compatibility",
+      "DC fast charging",
+      "Regen on demand"
+    ]
+  },
+  {
+    "id": 9,
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2023,
+    "engineType": "2.5L Inline-4",
+    "horsepower": 187,
+    "transmission": "6-speed automatic",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 24,
+      "highway": 30
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "G-Vectoring Control Plus",
+      "Heated seats",
+      "Apple CarPlay & Android Auto compatibility",
+      "Radar cruise control"
+    ]
+  },
+  {
+    "id": 10,
+    "make": "Hyundai",
+    "model": "Kona Electric",
+    "year": 2023,
+    "engineType": "Electric",
+    "horsepower": 201,
+    "transmission": "Single-speed automatic",
+    "fuelType": "Electric",
+    "fuelEconomy": {
+      "city": "132 MPGe",
+      "highway": "108 MPGe"
+    },
+    "seatingCapacity": 5,
+    "features": [
+      "10.25-inch touchscreen display",
+      "Wireless Apple CarPlay & Android Auto compatibility",
+      "Blind-spot collision warning",
+      "Adaptive cruise control"
+    ]
+  },
+  {
+    "id": 11,
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2023,
+    "engineType": "3.6L V6",
+    "horsepower": 285,
+    "transmission": "6-speed manual",
+    "fuelType": "Gasoline",
+    "fuelEconomy": {
+      "city": 17,
+      "highway": 23
+    },
+    "seatingCapacity": 4,
+    "features": [
+      "Removable doors and roof",
+      "Trail Rated 4x4 capability",
+      "Uconnect infotainment",
+      "Water fording ability"
+    ]
+  }
+]
