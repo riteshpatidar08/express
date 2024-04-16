@@ -3,8 +3,9 @@ const app = express() ;
 const port = 3000
  const fs = require('fs')
 
+ //middleware 
  app.use(express.json())
- 
+
  const carsData = () => {
   const data =  fs.readFileSync(`${__dirname}/data/cars.json` , 'utf-8')
   return JSON.parse(data)
@@ -43,9 +44,21 @@ app.get('/cars/:id' , (req,res)=>{
 //add new item to the cars.json
 //post method
 app.post('/addcar', (req,res)=>{
+  const cars = carsData()
   const newData = req.body
   console.log(newData) ;
-  
+
+  const newId = cars[cars.length-1].id + 1
+
+  newData.id  = newId  
+
+  cars.push(newData) ;
+  addCarsData(cars)
+  res.status(200).json({
+    data :{
+      cars
+    }
+  })
 })  
 
 
